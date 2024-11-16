@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+    let maindiv=document.createElement("div");
+    maindiv.style.width="100vw"
+    maindiv.style.height="100vh"
+    maindiv.style.border="2px solid"
+    document.body.appendChild(maindiv)
+    maindiv.style.backgroundImage="url('./bg2.jpg')"
+    maindiv.style.backgroundSize="cover"
+    maindiv.style.backgroundPosition="fixed"
+
+   
+    let div1 = document.createElement("div");
+    div1.style.height="150px"
+    div1.style.width="300px"
+    div1.style.border="2px solid black"
+    maindiv.appendChild(div1)
+     div1.style.margin="100px 0px 10px 50px"
+
+    let div2 = document.createElement("div");
+    div2.style.height="150px"
+    div2.style.width="300px"
+    div2.style.border="2px solid black"
+    maindiv.appendChild(div2)
+    div2.style.margin="0px 0px 10px 50px"
+
+    let div3 = document.createElement("div");
+    div3.style.height="150px"
+    div3.style.width="300px"
+    div3.style.border="2px solid black"
+    maindiv.appendChild(div3)
+     div3.style.margin="0px 0px 10px 50px"
+
+
+    var img_1=document.createElement("img")
+    div1.appendChild(img_1)
+    img_1.setAttribute("src","./fidaa3.jpg")
+    img_1.style.height="150px"
+     img_1.style.width="300px"
+
+    var img_2=document.createElement("img")
+    div2.appendChild(img_2)
+    img_2.setAttribute("src","./fidaa5.jpg")
+     img_2.style.height="150px"
+     img_2.style.width="300px"
+    
+
+    var img_3=document.createElement("img")
+    div3.appendChild(img_3)
+    img_3.setAttribute("src","./saipallavi.jpg")
+     img_3.style.height="150px"
+     img_3.style.width="300px"
+
+
+   </script> 
+
+<div id="fidaa" onclick="demo()"></div>
+<button onclick="demo1()">FIDAA</button>
+<button onclick="demo2()">AMARAN</button>
+<button onclick="demo3()">LOVE STORY</button>
+<script>
+    function demo1(){
+        let x = document.getElementById("fidaa")
+        div1.style.height="300px"
+        div1.style.width="150px"
+        div1.style.border="2px solid black" 
+        img_1.style.height="300px"
+        img_1.style.width="150px"
+        div2.style.height="300px"
+        div2.style.width="150px"
+        div2.style.border="2px solid black" 
+        img_2.style.height="300px"
+        img_2.style.width="150px"
+        div3.style.height="300px"
+        div3.style.width="150px"
+        div3.style.border="2px solid black" 
+        img_3.style.height="300px"
+        img_3.style.width="150px"
+        maindiv.style.display="flex"
+        div1.style.margin="200px 50px 0px 50px"
+        div2.style.margin="200px 50px 0px 0px"
+        div3.style.margin="200px 50px 0px 0px"
+        div1.style.transitionDuration="4s"
+        div2.style.transitionDuration="4s"
+        div3.style.transitionDuration="4s"
+        img_1.setAttribute("src","./f3.jpeg")
+        img_2.setAttribute("src","./f2.jpeg")
+        img_3.setAttribute("src","./f1.jpeg")
+        maindiv.style.backgroundImage="url('./bg2.jpg')"
+        demo2.style.display="none"
+        demo3.style.display="none"
+   
+} 
+function demo2(){
+        let x = document.getElementById("fidaa")
+        div1.style.height="300px"
+        div1.style.width="150px"
+        div1.style.border="2px solid black" 
+        img_1.style.height="300px"
+        img_1.style.width="150px"
+        div2.style.height="300px"
+        div2.style.width="150px"
+        div2.style.border="2px solid black" 
+        img_2.style.height="300px"
+        img_2.style.width="150px"
+        div3.style.height="300px"
+        div3.style.width="150px"
+        div3.style.border="2px solid black" 
+        img_3.style.height="300px"
+        img_3.style.width="150px"
+        maindiv.style.display="flex"
+        div1.style.margin="200px 50px 0px 50px"
+        div2.style.margin="200px 50px 0px 0px"
+        div3.style.margin="200px 50px 0px 0px"
+        img_1.setAttribute("src","./ama.jpeg")
+        img_2.setAttribute("src","./amaa.jpeg")
+        img_3.setAttribute("src","./amaraa.jpeg")
+        maindiv.style.backgroundImage="url('./amaran1.jpg')"
+        demo1.style.display="none"
+        demo3.style.display="none"
+   
+   
+} 
+
+function demo3(){
+        let x = document.getElementById("fidaa")
+        div1.style.height="300px"
+        div1.style.width="150px"
+        div1.style.border="2px solid black" 
+        img_1.style.height="300px"
+        img_1.style.width="150px"
+        div2.style.height="300px"
+        div2.style.width="150px"
+        div2.style.border="2px solid black" 
+        img_2.style.height="300px"
+        img_2.style.width="150px"
+        div3.style.height="300px"
+        div3.style.width="150px"
+        div3.style.border="2px solid black" 
+        img_3.style.height="300px"
+        img_3.style.width="150px"
+        maindiv.style.display="flex"
+        div1.style.margin="200px 50px 0px 800px"
+        div2.style.margin="200px 50px 0px 0px"
+        div3.style.margin="200px 50px 0px 0px"
+        img_1.setAttribute("src","./ls1.jpg")
+        img_2.setAttribute("src","./ls2.jpg")
+        img_3.setAttribute("src","./f1.jpeg")
+        maindiv.style.backgroundImage="url('./ls@.jpg')"
+       demo1.style.display="none"
+        // demo2.style.display="none"
+   
+} 
+
+
+    
+    
+</script>
+</body>
+</html>
